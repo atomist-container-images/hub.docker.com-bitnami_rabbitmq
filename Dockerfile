@@ -1,18 +1,24 @@
-# Tags: latest, 3.9.14-debian-10-r8, 3.9.14, 3.9-debian-10, 3.9
+# Tags: latest, 3.9.14-debian-10-r9, 3.9.14, 3.9-debian-10, 3.9
 FROM bitnami/rabbitmq:latest
-FROM bitnami/rabbitmq:3.9.14-debian-10-r8
+FROM bitnami/rabbitmq:3.9.14-debian-10-r9
 FROM bitnami/rabbitmq:3.9.14
 FROM bitnami/rabbitmq:3.9-debian-10
 FROM bitnami/rabbitmq:3.9
 
-# Tags: _
-FROM bitnami/rabbitmq:_
-
-# Tags: 3.8.28-debian-10-r8, 3.8.28, 3.8-debian-10, 3.8
-FROM bitnami/rabbitmq:3.8.28-debian-10-r8
+# Tags: 3.8.28-debian-10-r9, 3.8.28, 3.8-debian-10, 3.8
+FROM bitnami/rabbitmq:3.8.28-debian-10-r9
 FROM bitnami/rabbitmq:3.8.28
 FROM bitnami/rabbitmq:3.8-debian-10
 FROM bitnami/rabbitmq:3.8
+
+# Tags: _
+FROM bitnami/rabbitmq:_
+
+# Tags: 3.9.14-debian-10-r8
+FROM bitnami/rabbitmq:3.9.14-debian-10-r8
+
+# Tags: 3.8.28-debian-10-r8
+FROM bitnami/rabbitmq:3.8.28-debian-10-r8
 
 # Tags: 3.9.14-debian-10-r7
 FROM bitnami/rabbitmq:3.9.14-debian-10-r7
@@ -189,6 +195,3 @@ FROM bitnami/rabbitmq:3.9.13-debian-10-r41
 
 # Tags: 3.8.27-debian-10-r42
 FROM bitnami/rabbitmq:3.8.27-debian-10-r42
-
-# Tags: 3.9.13-debian-10-r40
-FROM bitnami/rabbitmq:3.9.13-debian-10-r40
